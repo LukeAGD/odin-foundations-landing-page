@@ -99,10 +99,14 @@ li{
 
 }
 
+/* Gallery Section */
 .section1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    gap: 50px;
 }
 
 .section1 .infoshelf{
@@ -130,9 +134,10 @@ li{
     overflow: hidden;
 }
 
+/* Section with Quote */
 .section2{
     background-color: #e5e7eb;
-    min-height: 350px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,8 +149,8 @@ li{
 }
 
 .section2contents{
-    max-width: 700px;
-    max-height: 200px;
+    max-width: 800px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
 }
@@ -167,11 +172,12 @@ li{
     flex: 0 0 auto;
 }
 
+/* Section with CTA */
 .section3{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 250px;
+    min-height: 300px;
 }
 
 .section3 button{
@@ -209,6 +215,7 @@ li{
     color: #e5e7eb;
 }
 
+/* Footer */
 .footer{
     background-color: #1f2937;
     color: #e5e7eb;
